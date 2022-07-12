@@ -1,0 +1,18 @@
+{
+    "manifest_version":3,
+    "name":"helloWorld",
+    "version":"1.0",
+    "description":"hello world 插件",
+    "icons":{
+        "128":"img/logo-50px.png",
+        "48":"img/logo-50px.png",
+        "16":"img/logo-50px.png"
+    },
+    "action":{
+        "default_icon":"img/logo-50px.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "storage"
+    ]
+}
